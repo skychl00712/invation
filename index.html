@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모바일청첩장</title>
+    <!-- 구글폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400;500;600&display=swap" rel="stylesheet">
+     <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="title">
+        <h1>우리 결혼합니다</h1>
+        <p>한승훈 ♥ 강지영</p>
+        <img src="./imges/main.jpg" alt="">
+        <div class="introText">
+            <p> 09 / 21<br>
+               <span style="font-size: 20px; font-style: normal;font-weight: 550;">토요일 12시 김포웨딩홀</span> 
+            </p>
+             
+        </div>
+    </section>
+    <section id="section2">
+        <img src="./imges/banner.jpg" alt="banner" width="100%">
+        <div class="weddingText">
+          <p>
+            서로가 마주보며 다져온 사랑을<br>
+            이제 함께 한 곳을 바라보며 걸어갈 수 있는<br>
+            큰 사랑으로 키우고자 합니다.<br>
+            두사람이 사랑의 이름으로 지켜나갈 수 있게<br>
+            앞날을 축복해 주시면 감사하겠습니다. 
+          </p>
+          <p>
+            정래균 지복자<span style="font-size: 16px;">의 장남</span> 정종훈<br>
+            안상철 송경자<span style="font-size: 16px;">의 차녀</span> 안미선
+          </p>
+        </div>
+        <div class="call">
+            <div class="groom">
+                <p>To . 신랑에게</p>
+
+                <ul>
+                    <li><a href="tel=010-123-4567"><img src="./imges/call.png" alt="call" >전화하기</a></li>
+                    <li><a href=""><img src="./imges/letter.png" alt="" >문자하기</a></li>
+                </ul>
+            </div>
+            <div class="bride">
+                <p>To . 신부에게</p>
+
+                <ul>
+                    <li><a href="tel=010-123-4567"><img src="./imges/call.png" alt=""call>전화하기</a></li>
+                    <li><a href=""><img src="./imges/letter.png" alt="">문자하기</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="section3">
+        <h2>우리이야기</h2>
+        <div class="video">
+            <iframe width="100%"   height="100%" src="https://www.youtube.com/embed/Aj-a6ZAr-s0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="section4">
+        <h2>오시는 길</h2>
+        <div class="location">
+            <!-- * 카카오맵 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+<div id="daumRoughmapContainer1628472693261" class="root_daum_roughmap root_daum_roughmap_landing" style="width: 100%;"></div>
+
+<!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1628472693261",
+		"key" : "26wab",
+		"mapHeight" : "360"
+	}).render();
+</script>
+        </div>
+        <div class="location-word">
+            <p class="location-view">지도를 클릭하시면 지도를 자세하게 보실 수 있습니다.</p>
+             <ul class="icon">
+                <li><a href="https://map.kakao.com/?from=roughmap&eName=%EA%B9%80%ED%8F%AC%EC%9B%A8%EB%94%A9%ED%99%80%EB%B6%80%ED%8E%98&eX=434483.0&eY=1147553.0"><img src="./imges/kakao.png" alt="카카오"></a></li>
+             </ul>
+             <p class="location-info">
+                김포웨딩홀 / 3층 아이리스 홀<br>
+                위치 : 경기도 김포시 김포1동 북변중로 137<br>
+                Tel) 031 - 998 -1515 
+             </p>
+        </div>
+        <div class="trans">
+            <ul>
+                <li><img src="./imges/subway.png" alt="subway">지하철 : 김포골드라인</li>
+                <li><img src="./imges/bus.png" alt="bus">버스 : 96번 81번 </li>
+                <li><img src="./imges/car.png" alt="car">주차 : 지하주차장, 고용 주차장 570대 가능</li>
+            </ul>
+
+        </div>
+
+        
+    </section>
+    <footer>
+        <a href="tel:031-980-0011">031-980-0011</a>
+        <p>경기도 김포시 김포1동 123 <br>
+            김포웨딩홀
+        </p>
+    </footer>
+ 
+</body>  
