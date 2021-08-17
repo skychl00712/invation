@@ -33,9 +33,8 @@ body{
 }
 #title > h1{
     height: 10vh;
-  
     font-size: 27px;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 12px;
 }
 #title > p{
